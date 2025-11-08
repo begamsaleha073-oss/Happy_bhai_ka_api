@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   const key = req.query.key;
 
   // apni API ke liye valid key
-  const MY_KEYS = ["happy143", "demo_key"];
+  const MY_KEYS = ["vrhvrhvrh", "demo_key"];
   if (!MY_KEYS.includes(key)) {
     return res.status(401).json({ status: "error", message: "Invalid API key" });
   }
